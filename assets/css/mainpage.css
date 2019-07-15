@@ -117,6 +117,7 @@ button{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
+  line-height: 1.7;
 }
 @keyframes gogo{
   0%{
@@ -135,25 +136,30 @@ button{
 #font2
 {
   font-size:70px;  
+  line-height: 1.7;
 }
 
 #font3{
   font-family: 'Pacifico', cursive;
-  font-size:45px;
+  font-size:55px;
+  line-height: 1.7;
 }
 
 #font4{
   font-family: 'Sunflower', sans-serif;
   font-size:35px;
+  line-height: 1.7;
 }
 
 #font5{
   font-family: 'Song Myung', serif;
-  font-size:70px;
+  font-size:50px;
+  line-height: 1.7;
 }
 
 #font6{
   font-size:55px;
+  line-height: 1.7;
 }
 
 #font7{
@@ -164,6 +170,7 @@ button{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
+  line-height: 1.7;
 }
 @keyframes go{
   0%{
@@ -180,30 +187,36 @@ button{
 
 #font8{
   font-size:60px;
+  line-height: 1.7;
 }
 
 #font9{
   font-family: 'Nanum Gothic Coding', monospace;
   font-size:50px;
+  line-height: 1.7;
 }
 
 #font10{
  font-family: 'Poor Story', cursive;
  font-size:40px;
+ line-height: 1.7;
 }
 
 #font11{
  font-family: 'Sunflower', sans-serif;
  font-size:60px;
+ line-height: 1.7;
 }
 
 #font12{
   font-family:'Nanum Myeongjo', serif;
   font-size:50px;
+  line-height: 1.7;
 }
 
 #font13{
-  font-size:50px;
+  font-size:40px;
+  line-height: 1.7;
 }
 #font14{
   font-family: 'Song Myung', serif;
@@ -213,6 +226,7 @@ button{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
+  line-height: 1.7;
 }
 @keyframes goo{
   0%{
@@ -233,6 +247,7 @@ button{
   font-family:'Nanum Myeongjo', serif;
   font-size:40px;
   font-style: bold;
+  line-height: 1.7;
 }
 
 
@@ -295,8 +310,14 @@ button{
 
 
    
- #font2, #font3, #font4, #font5, #font6, #font8, #font9, #font10, #font11, #font12, #font13{
+ #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
   font-size:40px;
+ }
+ #font3{
+  font-size:50px;
+ }
+  #font6{
+  font-size:45px;
  }
 
  .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
