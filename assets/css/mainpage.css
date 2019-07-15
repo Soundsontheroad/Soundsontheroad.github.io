@@ -117,7 +117,6 @@ button{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
-  line-height: 70pt;
 }
 @keyframes gogo{
   0%{
@@ -135,42 +134,36 @@ button{
 }
 #font2
 {
-  font-size:70pt;  
-  line-height: 70pt;
+  font-size:70px;  
 }
 
 #font3{
   font-family: 'Pacifico', cursive;
-  font-size:45pt;
-  line-height: 70pt;
+  font-size:45px;
 }
 
 #font4{
   font-family: 'Sunflower', sans-serif;
-  font-size:35pt;
-  line-height: 70pt;
+  font-size:35px;
 }
 
 #font5{
   font-family: 'Song Myung', serif;
   font-size:70px;
-  line-height: 70pt;
 }
 
 #font6{
   font-size:55px;
-  line-height: 70pt;
 }
 
 #font7{
   font-size:40px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
-  animation-duration:1.5s;
+  animation-duration:2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
-  line-height: 70pt;
 }
 @keyframes go{
   0%{
@@ -187,36 +180,30 @@ button{
 
 #font8{
   font-size:60px;
-  line-height: 70pt;
 }
 
 #font9{
   font-family: 'Nanum Gothic Coding', monospace;
   font-size:50px;
-  line-height: 70pt;
 }
 
 #font10{
  font-family: 'Poor Story', cursive;
  font-size:40px;
- line-height: 70pt;
 }
 
 #font11{
  font-family: 'Sunflower', sans-serif;
  font-size:60px;
- line-height: 70pt;
 }
 
 #font12{
   font-family:'Nanum Myeongjo', serif;
   font-size:50px;
-  line-height: 70pt;
 }
 
 #font13{
   font-size:50px;
-  line-height: 70pt;
 }
 #font14{
   font-family: 'Song Myung', serif;
@@ -226,7 +213,6 @@ button{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
-  line-height: 70pt;
 }
 @keyframes goo{
   0%{
@@ -247,7 +233,6 @@ button{
   font-family:'Nanum Myeongjo', serif;
   font-size:40px;
   font-style: bold;
-  line-height: 70pt;
 }
 
 
@@ -263,7 +248,6 @@ button{
   padding: 100px;
   display: none;
   font-size:20px;
-  line-height: 40px
 }
 
 .info {
@@ -359,7 +343,7 @@ button{
   font-size:30px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
-  animation-duration:1.5s;
+  animation-duration:2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
@@ -491,7 +475,7 @@ body{
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
-  line-height: 2;
+  line-height: 2.2;
 }
 @keyframes goo{
   0%{
