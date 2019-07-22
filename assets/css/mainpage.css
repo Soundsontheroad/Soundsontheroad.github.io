@@ -148,8 +148,26 @@ button{
 #font4{
   font-family: 'Sunflower', sans-serif;
   font-size:35px;
+    animation-name: f;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
   line-height: 1.7;
 }
+@keyframes f{
+  0%{
+    font-size:35px;
+    /*    opacity: 1;*/
+  }
+
+  100%{
+    font-size:70px;
+    /*  opacity: 0;*/
+
+  }
+}
+
 
 #font5{
   font-family: 'Song Myung', serif;
@@ -408,22 +426,36 @@ button{
 
 
 
-@media (min-width:767px){
+@media screen and (min-width:767px){
 body{
     font-size:20pt;
-  background-size: 270%;
+    background-size: 270%;
   }
-
     hgroup{
     font-size:20pt;
      line-height: 2;
   }
-
+.image{
+  width:1000px; 
+}
     
- #font2, #font3, #font4, #font5, #font6, #font8, #font9, #font10, #font11, #font12, #font13{
+ #font2, #font4, #font5, #font8, #font10, #font13{
   font-size:60px;
   line-height: 2.2;
  }
+#font3, #font9, {
+  font-size:70px;
+  line-height:2.2;
+}
+#font6, #font11, {
+  font-size:70px;
+  line-height:2.2;
+}
+#font12 {
+  font-size:80px;
+  line-height:2.2;
+}
+
 
  .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
 .panel9, .panel10, .panel11, .panel12, .panel13 {
@@ -463,6 +495,28 @@ body{
     /*  opacity: 0;*/
 
   }
+#font4{
+  font-family: 'Sunflower', sans-serif;
+  font-size:35px;
+    animation-name: f;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 2.2;
+}
+@keyframes f{
+  0%{
+    font-size:35px;
+    /*    opacity: 1;*/
+  }
+
+  100%{
+    font-size:70px;
+    /*  opacity: 0;*/
+
+  }
+}
 
 
 #font7{
@@ -482,7 +536,7 @@ body{
   }
 
   100%{
-    font-size:90px;
+    font-size:120px;
     /*  opacity: 0;*/
 
   }
