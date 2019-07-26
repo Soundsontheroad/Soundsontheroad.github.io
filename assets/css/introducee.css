@@ -78,6 +78,7 @@ p {
       line-height: 90%;
       height: 1px;
       color:white;
+
       }
 
 a:link {
@@ -121,8 +122,8 @@ a:visited {
 @media (min-width:767px){
 
     hgroup{
-    font-size:25pt;
-     line-height: 2.5;
+    font-size:20pt;
+     line-height: 2.2;
   }
 
 
@@ -192,7 +193,7 @@ p{
   padding-left: 280px;
   padding-top:0px;
   font-size:10pt;
-   text-align: left;
+   text-align: center;
      line-height: 1.7;
 }
 

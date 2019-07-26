@@ -281,6 +281,7 @@ button{
   padding: 100px;
   display: none;
   font-size:20px;
+  line-height: 2;
 }
 
 .info {
@@ -324,9 +325,11 @@ button{
 
 
 
-@media all and (max-width:800px){
+@media all and (max-width:1000px){
 
-
+.image{
+  width:500px; 
+}
    
  #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
   font-size:40px;
@@ -345,6 +348,7 @@ button{
     padding-left: 0px;
   display: none;
   font-size:15px;
+  line-height: 2;
 }
  #textbox{
     padding-top:40px;
@@ -432,11 +436,11 @@ body{
     background-size: 270%;
   }
     hgroup{
-    font-size:20pt;
-     line-height: 2;
+    font-size:15pt;
+     line-height: 2.2;
   }
 .image{
-  width:1000px; 
+  width:700px; 
 }
     
  #font2, #font4, #font5, #font8, #font10, #font13{
