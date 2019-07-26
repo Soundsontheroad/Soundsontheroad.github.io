@@ -271,13 +271,20 @@ button{
 
 .panel, .flip, .panel1, .flip1, .panel2, .flip2, .flip3, .panel3, .flip4, .panel4, 
 .flip5, .panel5, .flip6, .panel6, .flip7, .panel7, .flip8, .panel8, .flip9, .panel9, 
-.flip10, .panel10, .flip11, .panel11,.flip12, .panel12,.flip13, .panel13, .flip14, .panle14  {
+.flip10, .panel10, .flip11, .panel11,.flip12, .panel12,.flip13, .panel13, .flip14  {
   text-align: center;
 
 }
+h2{
+/*  background-image:url("assets/images/rainbow.gif");
+  background-position: center;
+  background-repeat: repeat;  */   
+}
+
+
 
 .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
-.panel9, .panel10, .panel11, .panel12, .panel13, .panel14 {
+.panel9, .panel10, .panel11, .panel12, .panel13 {
   padding: 100px;
   display: none;
   font-size:20px;
@@ -330,7 +337,9 @@ button{
 .image{
   width:500px; 
 }
-   
+.rainbow{
+  width:2000px;
+}   
  #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
   font-size:40px;
  }
@@ -342,7 +351,7 @@ button{
  }
 
  .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
-.panel9, .panel10, .panel11, .panel12, .panel13, .panel14 {
+.panel9, .panel10, .panel11, .panel12, .panel13{
     padding-top:100px;
     padding-right:0px;
     padding-left: 0px;
