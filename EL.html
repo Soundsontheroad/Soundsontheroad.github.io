@@ -18,7 +18,7 @@
       body {
         padding: 30px;
         font-family: sans-serif;
-        font-size: 18px;
+        font-size: 10px;
         line-height: 1.6;
         background-color: #252224;
       }
@@ -43,7 +43,7 @@
         transform: translate(-50%, -50%);
       }
        p {
-        font-size: 20pt;
+        font-size: 10pt;
         font-style: bold;
         color: gray;
         text-align: center;
@@ -64,7 +64,7 @@ a:visited {
 }
 
 .image{
-  width: 700px;
+  width: 200px;
  position:absolute;
   top:45%;
   left:50%;
@@ -74,11 +74,21 @@ a:visited {
 /*------------------------------------------------*/
 @media (min-width:767px){
 h1 {
+        font-size: 10pt;
+      }
+
+.image{
+  width: 500px;
+}
+}
+
+@media all and (max-width:800px){
+h1 {
         font-size: 20pt;
       }
 
 .image{
-  width: 700px;
+  width: 300px;
 }
 }
 
@@ -90,9 +100,10 @@ h1 {
         <div>
 
           <img class="image" src="assets/images/El.gif" alt="El">
+          <br>
           <p> 봄입니다. 열심히 살고 있습니다. </p>
 
-           <h1> <a href="Introduce.html">나 돌아갈래!</a>
+           <h1> <a href="introduce.html">나 돌아갈래!</a><br><br><br>
            </h1>
 </div>
 </body>
