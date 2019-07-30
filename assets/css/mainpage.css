@@ -8,7 +8,6 @@
   font-weight: normal;
 
 }
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
 
 body {
   padding-right: 0px;
@@ -154,12 +153,14 @@ src:url("assets/font/J-Bold.otf");
 {
   font-size:70px;  
   line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #font3{
 /*  font-family: 'Pacifico', cursive;*/
   font-size:55px;
   line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 /*#font4{
@@ -190,11 +191,13 @@ src:url("assets/font/J-Bold.otf");
 /*  font-family: 'Song Myung', serif;*/
   font-size:50px;
   line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #font6{
   font-size:55px;
   line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 /*#font7{
@@ -223,18 +226,21 @@ src:url("assets/font/J-Bold.otf");
 #font8{
   font-size:60px;
   line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #font9{
 /*  font-family: 'Nanum Gothic Coding', monospace;*/
   font-size:50px;
   line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 #font10{
 /* font-family: 'Poor Story', cursive;*/
  font-size:40px;
  line-height: 1.7;
+ font-family: 'Nanum Myeongjo', serif;
 }
 
 #font11{
@@ -252,6 +258,7 @@ src:url("assets/font/J-Bold.otf");
 #font13{
   font-size:40px;
   line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
 }
 /*#font14{
   font-family: 'Song Myung', serif;
