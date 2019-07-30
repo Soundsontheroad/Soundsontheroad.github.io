@@ -344,7 +344,9 @@ button{
   width:2000px;
 }   
 
-
+.stop{
+  width:300px;
+}
 
  #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
   font-size:40px;
