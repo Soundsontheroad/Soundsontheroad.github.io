@@ -108,6 +108,15 @@ button{
   color: #DEDCDD;
   border: none;
 }
+
+#font0
+{
+  position:absolute;
+  top:75%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
 #font1
 {
   font-family:'Nanum Myeongjo', serif;
@@ -275,12 +284,6 @@ button{
   text-align: center;
 
 }
-h2{
-/*  background-image:url("assets/images/rainbow.gif");
-  background-position: center;
-  background-repeat: repeat;  */   
-}
-
 
 
 .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
@@ -340,6 +343,9 @@ h2{
 .rainbow{
   width:2000px;
 }   
+
+
+
  #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
   font-size:40px;
  }
@@ -450,6 +456,14 @@ body{
   }
 .image{
   width:700px; 
+}
+
+#font0
+{
+  position:absolute;
+  top:80%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
     
  #font2, #font4, #font5, #font8, #font10, #font13{
@@ -576,7 +590,6 @@ body{
 
   }
 }
-
 
 
 }
