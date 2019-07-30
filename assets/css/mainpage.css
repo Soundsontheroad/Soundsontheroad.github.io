@@ -123,7 +123,7 @@ src:url("assets/font/J-Bold.otf");
   transform: translate(-50%, -50%);
 }
 
-#font1
+/*#font1
 {
   font-family: 'J-Bold';
   font-size:47px;
@@ -147,7 +147,7 @@ src:url("assets/font/J-Bold.otf");
     /*  opacity: 0;*/
 
   }
-}
+}*/
 #font2
 {
   font-size:70px;  
@@ -160,7 +160,7 @@ src:url("assets/font/J-Bold.otf");
   line-height: 1.7;
 }
 
-#font4{
+/*#font4{
   font-family: 'Sunflower', sans-serif;
   font-size:35px;
     animation-name: f;
@@ -181,7 +181,7 @@ src:url("assets/font/J-Bold.otf");
     /*  opacity: 0;*/
 
   }
-}
+}*/
 
 
 #font5{
@@ -195,7 +195,7 @@ src:url("assets/font/J-Bold.otf");
   line-height: 1.7;
 }
 
-#font7{
+/*#font7{
   font-size:40px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
@@ -215,7 +215,7 @@ src:url("assets/font/J-Bold.otf");
     font-size:60px;
     /*  opacity: 0;*/
 
-  }
+  }*/
 }
 
 #font8{
@@ -251,7 +251,7 @@ src:url("assets/font/J-Bold.otf");
   font-size:40px;
   line-height: 1.7;
 }
-#font14{
+/*#font14{
   font-family: 'Song Myung', serif;
   font-size:70px;
   animation-name: goo;
@@ -273,7 +273,7 @@ src:url("assets/font/J-Bold.otf");
 
   }
 }
-
+*/
 
 #font15
 {
@@ -300,7 +300,7 @@ src:url("assets/font/J-Bold.otf");
   line-height: 2;
 }
 
-.info {
+/*.info {
   font-size:30pt;
   font-family: sans-serif;
   font-style: bold;
@@ -308,7 +308,7 @@ src:url("assets/font/J-Bold.otf");
   margin: 0px;
   text-align: justify-all;
   background-color: transparent;
-}
+}*/
 
 /****************************** ayong - preloader ******************************/
 .flex-center {
@@ -357,9 +357,11 @@ src:url("assets/font/J-Bold.otf");
 
  #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
   font-size:40px;
+  font-family: 'Nanum Myeongjo', serif;
  }
  #font3{
   font-size:50px;
+  font-family: 'Nanum Myeongjo', serif;
  }
   #font6{
   font-size:45px;
@@ -381,7 +383,7 @@ src:url("assets/font/J-Bold.otf");
     padding-left: 0px;
   }
 
-#font1
+/*#font1
 {
   font-family: 'J-Bold';
   font-size:37px;
@@ -404,10 +406,10 @@ src:url("assets/font/J-Bold.otf");
     left:300px;
     /*  opacity: 0;*/
 
-  }
+  }*/
 
 
-#font7{
+/*#font7{
   font-size:30px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
@@ -427,8 +429,8 @@ src:url("assets/font/J-Bold.otf");
     /*  opacity: 0;*/
 
   }
-}
-#font14{
+}*/
+/*#font14{
   font-family: 'Song Myung', serif;
   font-size:60px;
   animation-name: goo;
@@ -448,7 +450,7 @@ src:url("assets/font/J-Bold.otf");
     /*  opacity: 0;*/
 
   }
-}
+}*/
 
 
 }
@@ -514,7 +516,7 @@ body{
 
   }
 
-#font1
+/*#font1
 {
   font-family: 'J-Bold'; 
   font-size:40px;
@@ -535,8 +537,8 @@ body{
     font-size:80px;
     /*  opacity: 0;*/
 
-  }
-#font4{
+  }*/
+/*#font4{
   font-family: 'Sunflower', sans-serif;
   font-size:35px;
     animation-name: f;
@@ -557,10 +559,10 @@ body{
     /*  opacity: 0;*/
 
   }
-}
+}*/
 
 
-#font7{
+/*#font7{
   font-size:60px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
@@ -580,9 +582,9 @@ body{
     font-size:120px;
     /*  opacity: 0;*/
 
-  }
+  }*/
 }
-#font14{
+/*#font14{
   font-family: 'Song Myung', serif;
   font-size:60px;
   animation-name: goo;
@@ -601,7 +603,7 @@ body{
   100%{
     font-size:90px;
     /*  opacity: 0;*/
-  }
+  }*/
 }
 
 
