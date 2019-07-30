@@ -109,6 +109,12 @@ button{
   border: none;
 }
 
+@font-face{
+font-family: J-Bold;
+src:url("assets/font/J-Bold.otf");
+}
+
+
 #font0
 {
   position:absolute;
@@ -119,7 +125,7 @@ button{
 
 #font1
 {
-  font-family:'Nanum Myeongjo', serif;
+  font-family: 'J-Bold';
   font-size:47px;
   animation-name: gogo ;
   animation-duration:2s;
@@ -361,13 +367,14 @@ button{
 
  .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
 .panel9, .panel10, .panel11, .panel12, .panel13{
-    padding-top:100px;
+    padding-top:90px;
     padding-right:0px;
     padding-left: 0px;
   display: none;
   font-size:15px;
   line-height: 2;
 }
+
  #textbox{
     padding-top:40px;
     padding-right:0px;
@@ -376,15 +383,15 @@ button{
 
 #font1
 {
-  font-family:'Nanum Myeongjo', serif;
+  font-family: 'J-Bold';
   font-size:37px;
   animation-name: gogo ;
   animation-duration:2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
-
 }
+
 @keyframes gogo{
   0%{
     font-size:37px;
@@ -509,7 +516,7 @@ body{
 
 #font1
 {
-  font-family:'Nanum Myeongjo', serif;
+  font-family: 'J-Bold';
   font-size:40px;
   animation-name: gogo ;
   animation-duration:2s;
@@ -594,7 +601,6 @@ body{
   100%{
     font-size:90px;
     /*  opacity: 0;*/
-
   }
 }
 
