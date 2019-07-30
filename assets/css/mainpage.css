@@ -110,11 +110,6 @@ button{
   border: none;
 }
 
-@font-face{
-font-family: J-Bold;
-src:url("assets/font/J-Bold.otf");
-}
-
 
 #font0
 {
@@ -124,9 +119,9 @@ src:url("assets/font/J-Bold.otf");
   transform: translate(-50%, -50%);
 }
 
-/*#font1
+#font1
 {
-  font-family: 'J-Bold';
+
   font-size:47px;
   animation-name: gogo ;
   animation-duration:2s;
@@ -138,17 +133,13 @@ src:url("assets/font/J-Bold.otf");
 @keyframes gogo{
   0%{
     font-size:47px;
-    left: 0px;
-    /*    opacity: 1;*/
   }
 
   100%{
-    font-size:70px;
-    left:300px;
-    /*  opacity: 0;*/
-
+    font-size:60px;
   }
-}*/
+}
+
 #font2
 {
   font-size:70px;  
@@ -157,13 +148,12 @@ src:url("assets/font/J-Bold.otf");
 }
 
 #font3{
-/*  font-family: 'Pacifico', cursive;*/
+  font-family: 'Pacifico', cursive;
   font-size:55px;
   line-height: 1.7;
-  font-family: 'Nanum Myeongjo', serif;
 }
 
-/*#font4{
+#font4{
   font-family: 'Sunflower', sans-serif;
   font-size:35px;
     animation-name: f;
@@ -176,22 +166,18 @@ src:url("assets/font/J-Bold.otf");
 @keyframes f{
   0%{
     font-size:35px;
-    /*    opacity: 1;*/
   }
 
   100%{
     font-size:70px;
-    /*  opacity: 0;*/
-
-  }
-}*/
+}
+}
 
 
 #font5{
-/*  font-family: 'Song Myung', serif;*/
+  font-family: 'Song Myung', serif;
   font-size:50px;
   line-height: 1.7;
-  font-family: 'Nanum Myeongjo', serif;
 }
 
 #font6{
@@ -200,7 +186,7 @@ src:url("assets/font/J-Bold.otf");
   font-family: 'Nanum Myeongjo', serif;
 }
 
-/*#font7{
+#font7{
   font-size:40px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
@@ -213,14 +199,11 @@ src:url("assets/font/J-Bold.otf");
 @keyframes go{
   0%{
     font-size:40px;
-    /*    opacity: 1;*/
   }
 
   100%{
     font-size:60px;
-    /*  opacity: 0;*/
-
-  }*/
+}
 }
 
 #font8{
@@ -230,21 +213,21 @@ src:url("assets/font/J-Bold.otf");
 }
 
 #font9{
-/*  font-family: 'Nanum Gothic Coding', monospace;*/
+  font-family: 'Nanum Gothic Coding', monospace;
   font-size:50px;
   line-height: 1.7;
   font-family: 'Nanum Myeongjo', serif;
 }
 
 #font10{
-/* font-family: 'Poor Story', cursive;*/
+ font-family: 'Poor Story', cursive;
  font-size:40px;
  line-height: 1.7;
  font-family: 'Nanum Myeongjo', serif;
 }
 
 #font11{
-/* font-family: 'Sunflower', sans-serif;*/
+ font-family: 'Sunflower', sans-serif;
  font-size:60px;
  line-height: 1.7;
 }
@@ -260,7 +243,7 @@ src:url("assets/font/J-Bold.otf");
   line-height: 1.7;
   font-family: 'Nanum Myeongjo', serif;
 }
-/*#font14{
+#font14{
   font-family: 'Song Myung', serif;
   font-size:70px;
   animation-name: goo;
@@ -273,20 +256,16 @@ src:url("assets/font/J-Bold.otf");
 @keyframes goo{
   0%{
     font-size:70px;
-    /*    opacity: 1;*/
   }
 
   100%{
-    font-size:40px;
-    /*  opacity: 0;*/
-
+    font-size:50px;
   }
 }
-*/
+
 
 #font15
 {
-  font-family:'Nanum Myeongjo', serif;
   font-size:40px;
   font-style: bold;
   line-height: 1.7;
@@ -366,11 +345,9 @@ src:url("assets/font/J-Bold.otf");
 
  #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
   font-size:40px;
-  font-family: 'Nanum Myeongjo', serif;
  }
  #font3{
   font-size:50px;
-  font-family: 'Nanum Myeongjo', serif;
  }
   #font6{
   font-size:45px;
@@ -392,7 +369,7 @@ src:url("assets/font/J-Bold.otf");
     padding-left: 0px;
   }
 
-/*#font1
+#font1
 {
   font-family: 'J-Bold';
   font-size:37px;
@@ -406,19 +383,14 @@ src:url("assets/font/J-Bold.otf");
 @keyframes gogo{
   0%{
     font-size:37px;
-    left: 0px;
-    /*    opacity: 1;*/
   }
 
   100%{
     font-size:60px;
-    left:300px;
-    /*  opacity: 0;*/
-
-  }*/
+  }
 
 
-/*#font7{
+#font7{
   font-size:30px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
@@ -430,16 +402,13 @@ src:url("assets/font/J-Bold.otf");
 @keyframes go{
   0%{
     font-size:30px;
-    /*    opacity: 1;*/
-  }
-
+}
   100%{
     font-size:50px;
-    /*  opacity: 0;*/
+}
+}
 
-  }
-}*/
-/*#font14{
+#font14{
   font-family: 'Song Myung', serif;
   font-size:60px;
   animation-name: goo;
@@ -451,17 +420,11 @@ src:url("assets/font/J-Bold.otf");
 @keyframes goo{
   0%{
     font-size:60px;
-    /*    opacity: 1;*/
   }
 
   100%{
     font-size:30px;
-    /*  opacity: 0;*/
-
-  }
-}*/
-
-
+ }
 }
 
 
