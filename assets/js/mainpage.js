@@ -82,6 +82,7 @@ $(document).ready(function(){
         $(".panel,.panel1,.panel2,.panel3,.panel4,.panel5,.panel6,.panel7,.panel9,.panel10,.panel8, .panel11, .panel12").hide();
         $(".panel13").slideToggle("slow");
       });
+  
 
     });
 
@@ -99,6 +100,7 @@ $(document).ready(function(){
     var x11 = document.getElementById("audio11");
     var x12 = document.getElementById("audio12");
     var x13 = document.getElementById("audio13");
+    var x14 = document.getElementById("audio14");
 
     function play() { 
       x.play();
@@ -228,6 +230,7 @@ $(document).ready(function(){
       x3.pause();
       x4.pause();
       x5.pause();
+      x6.pause();
       x8.pause();
       x9.pause();
       x10.pause();
@@ -305,7 +308,7 @@ $(document).ready(function(){
       x12.pause();
       x13.pause();
     } 
-   
+
     function play12() { 
       x12.play(); 
       x.pause();
@@ -339,4 +342,22 @@ $(document).ready(function(){
       x11.pause();
       x12.pause();
     } 
-    
+
+     function play14() { 
+      x.pause();
+      x1.pause();
+      x2.pause();
+      x3.pause();
+      x4.pause();
+      x5.pause();
+      x6.pause();
+      x7.pause();
+      x8.pause();
+      x9.pause();
+      x10.pause();
+      x11.pause();
+      x12.pause();
+      x13.pause();
+      x14.pause();
+    } 
+
