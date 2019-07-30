@@ -121,7 +121,6 @@ button{
 
 #font1
 {
-
   font-size:47px;
   animation-name: gogo ;
   animation-duration:2s;
@@ -130,15 +129,15 @@ button{
   animation-direction: alternate-reverse;
   line-height: 1.7;
 }
-@keyframes gogo{
+/*@keyframes gogo{
   0%{
     font-size:47px;
   }
 
   100%{
-    font-size:60px;
+    font-size:50px;
   }
-}
+}*/
 
 #font2
 {
@@ -163,7 +162,7 @@ button{
   animation-direction: alternate-reverse;
   line-height: 1.7;
 }
-@keyframes f{
+/*@keyframes f{
   0%{
     font-size:35px;
   }
@@ -171,7 +170,7 @@ button{
   100%{
     font-size:70px;
 }
-}
+}*/
 
 
 #font5{
@@ -196,7 +195,7 @@ button{
   animation-direction: alternate-reverse;
   line-height: 1.7;
 }
-@keyframes go{
+/*@keyframes go{
   0%{
     font-size:40px;
   }
@@ -204,7 +203,7 @@ button{
   100%{
     font-size:60px;
 }
-}
+}*/
 
 #font8{
   font-size:60px;
@@ -253,7 +252,7 @@ button{
   animation-direction: alternate-reverse;
   line-height: 1.7;
 }
-@keyframes goo{
+/*@keyframes goo{
   0%{
     font-size:70px;
   }
@@ -261,7 +260,7 @@ button{
   100%{
     font-size:50px;
   }
-}
+}*/
 
 
 #font15
@@ -379,7 +378,7 @@ button{
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
 }
-
+/*
 @keyframes gogo{
   0%{
     font-size:37px;
@@ -387,7 +386,7 @@ button{
 
   100%{
     font-size:60px;
-  }
+  }*/
 
 
 #font7{
@@ -399,14 +398,14 @@ button{
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
 }
-@keyframes go{
+/*@keyframes go{
   0%{
     font-size:30px;
 }
   100%{
     font-size:50px;
 }
-}
+}*/
 
 #font14{
   font-family: 'Song Myung', serif;
@@ -417,7 +416,7 @@ button{
   animation-timing-function: ease-in-out;
   animation-direction: alternate-reverse;
 }
-@keyframes goo{
+/*@keyframes goo{
   0%{
     font-size:60px;
   }
@@ -425,7 +424,7 @@ button{
   100%{
     font-size:30px;
  }
-}
+}*/
 
 
 
@@ -488,9 +487,8 @@ body{
 
   }
 
-/*#font1
+#font1
 {
-  font-family: 'J-Bold'; 
   font-size:40px;
   animation-name: gogo ;
   animation-duration:2s;
@@ -499,18 +497,18 @@ body{
   animation-direction: alternate-reverse;
   line-height: 2.2;
 }
-@keyframes gogo{
+/*@keyframes gogo{
   0%{
     font-size:40px;
-    /*    opacity: 1;*/
+        opacity: 1;
   }
 
   100%{
     font-size:80px;
-    /*  opacity: 0;*/
+    /*  opacity: 0;
 
-  }*/
-/*#font4{
+  }*/*/
+#font4{
   font-family: 'Sunflower', sans-serif;
   font-size:35px;
     animation-name: f;
@@ -523,7 +521,7 @@ body{
 @keyframes f{
   0%{
     font-size:35px;
-    /*    opacity: 1;*/
+    /*    opacity: 1;
   }
 
   100%{
@@ -534,7 +532,7 @@ body{
 }*/
 
 
-/*#font7{
+#font7{
   font-size:60px;
   font-family: 'Gothic A1', sans-serif;
   animation-name: go;
@@ -547,7 +545,7 @@ body{
 @keyframes go{
   0%{
     font-size:60px;
-    /*    opacity: 1;*/
+    /*    opacity: 1;
   }
 
   100%{
@@ -556,7 +554,7 @@ body{
 
   }*/
 }
-/*#font14{
+#font14{
   font-family: 'Song Myung', serif;
   font-size:60px;
   animation-name: goo;
@@ -569,7 +567,7 @@ body{
 @keyframes goo{
   0%{
     font-size:60px;
-    /*    opacity: 1;*/
+    /*    opacity: 1;
   }
 
   100%{
