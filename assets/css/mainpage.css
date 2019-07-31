@@ -1,0 +1,627 @@
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+
+}
+
+body {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top:14px;
+  font-family: sans-serif;
+  font-size: 15pt;
+  /*background-color: #252224;*/
+  background-image:url("../images/background copy.jpg");
+        /*  background-size:120%;*/
+  background-attachment: fixed !important;
+  background-position: top;
+  background-repeat: none;                        
+  height: 100%;
+
+}
+
+hgroup{
+  padding-top:5px;
+  padding-right: 10px;
+  font-size: 10pt;
+  font-style: bold;
+  color: #DEDCDD;
+}
+.site-title {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 10pt;
+  font-style: bold;
+  color: gray;
+  padding-top:5px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+
+div {
+  margin: 0 auto; 
+  text-align: justify;
+}
+
+#textbox
+{
+padding-top:0px;
+padding-right: 0px;
+padding-left: 0px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+p {
+  font-size:15pt;
+  font-family: sans-serif;
+  font-style: bold;
+  color: #DEDCDD;
+  margin: 0px;
+  max-width:100%;
+  padding-top:50px;
+  text-align: justify;
+  line-height: auto;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:link {
+ color: #DEDCDD;
+ background-color: transparent;
+ text-decoration: none;
+}
+a:visited {
+ color: #DEDCDD;
+ background-color: transparent;
+ text-decoration: none;
+}
+button{
+  background-color: transparent;
+  color: #DEDCDD;
+  border: none;
+}
+
+
+#font0
+{
+  position:absolute;
+  top:75%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+#font1
+{
+  font-size:47px;
+  animation-name: gogo ;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 1.7;
+}
+/*@keyframes gogo{
+  0%{
+    font-size:47px;
+  }
+
+  100%{
+    font-size:50px;
+  }
+}*/
+
+#font2
+{
+  font-size:70px;  
+  line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+#font3{
+  font-family: 'Pacifico', cursive;
+  font-size:55px;
+  line-height: 1.7;
+}
+
+#font4{
+  font-family: 'Sunflower', sans-serif;
+  font-size:35px;
+    animation-name: f;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 1.7;
+}
+/*@keyframes f{
+  0%{
+    font-size:35px;
+  }
+
+  100%{
+    font-size:70px;
+}
+}*/
+
+
+#font5{
+  font-family: 'Song Myung', serif;
+  font-size:50px;
+  line-height: 1.7;
+}
+
+#font6{
+  font-size:55px;
+  line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+#font7{
+  font-size:40px;
+  font-family: 'Gothic A1', sans-serif;
+  animation-name: go;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 1.7;
+}
+/*@keyframes go{
+  0%{
+    font-size:40px;
+  }
+
+  100%{
+    font-size:60px;
+}
+}*/
+
+#font8{
+  font-size:60px;
+  line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+#font9{
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size:50px;
+  line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+#font10{
+ font-family: 'Poor Story', cursive;
+ font-size:40px;
+ line-height: 1.7;
+ font-family: 'Nanum Myeongjo', serif;
+}
+
+#font11{
+ font-family: 'Sunflower', sans-serif;
+ font-size:60px;
+ line-height: 1.7;
+}
+
+#font12{
+  font-family:'Nanum Myeongjo', serif;
+  font-size:50px;
+  line-height: 1.7;
+}
+
+#font13{
+  font-size:40px;
+  line-height: 1.7;
+  font-family: 'Nanum Myeongjo', serif;
+}
+#font14{
+  font-family: 'Song Myung', serif;
+  font-size:70px;
+  animation-name: goo;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 1.7;
+}
+/*@keyframes goo{
+  0%{
+    font-size:70px;
+  }
+
+  100%{
+    font-size:50px;
+  }
+}*/
+
+
+#font15
+{
+  font-size:40px;
+  font-style: bold;
+  line-height: 1.7;
+}
+
+
+.panel, .flip, .panel1, .flip1, .panel2, .flip2, .flip3, .panel3, .flip4, .panel4, 
+.flip5, .panel5, .flip6, .panel6, .flip7, .panel7, .flip8, .panel8, .flip9, .panel9, 
+.flip10, .panel10, .flip11, .panel11,.flip12, .panel12,.flip13, .panel13, .flip14  {
+  text-align: center;
+
+}
+
+
+.panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
+.panel9, .panel10, .panel11, .panel12, .panel13 {
+  padding: 100px;
+  display: none;
+  font-size:20px;
+  line-height: 2;
+}
+
+/*.info {
+  font-size:30pt;
+  font-family: sans-serif;
+  font-style: bold;
+  color: #DEDCDD;
+  margin: 0px;
+  text-align: justify-all;
+  background-color: transparent;
+}*/
+
+/****************************** ayong - preloader ******************************/
+.flex-center {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+  text-align: center;
+  justify-content: center;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #252224;
+  z-index: 10;
+  color: white;
+}
+
+#text{
+  position:absolute;
+  top:75%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+@media all and (max-width:1000px){
+
+.image{
+  width:500px; 
+}
+.rainbow{
+  width:2000px;
+}   
+
+.stop{
+  width:300px;
+  opacity: 10%;
+}
+
+ #font2{
+  font-size:30px;
+ }
+
+  #font3{
+  font-size:50px;
+ }
+
+  #font3{
+  font-size:70px;
+ }
+
+  #font4{
+  font-size:40px;
+ }
+
+  #font5{
+  font-size:30px;
+ }
+
+  #font6{
+  font-size:40px;
+ }
+
+  #font7{
+  font-size:45px;
+ }
+
+ #font8{
+  font-size:60px;
+ }
+
+  #font9{
+  font-size:50px;
+ }
+
+  #font10{
+  font-size:15px;
+ }
+
+  #font11{
+  font-size:30px;
+ }
+
+  #font12{
+  font-size:70px;
+ }
+
+  #font13{
+  font-size:50px;
+ }
+
+
+ .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
+.panel9, .panel10, .panel11, .panel12, .panel13{
+    padding-top:90px;
+    padding-right:0px;
+    padding-left: 0px;
+  display: none;
+  font-size:15px;
+  line-height: 2;
+  font-family: 'sans-serif'
+}
+
+ #textbox{
+    padding-top:40px;
+    padding-right:0px;
+    padding-left: 0px;
+  }
+
+#font1
+{
+  font-size:37px;
+  animation-name: gogo ;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+/*
+@keyframes gogo{
+  0%{
+    font-size:37px;
+  }
+
+  100%{
+    font-size:60px;
+  }*/
+
+
+#font7{
+  font-size:30px;
+  font-family: 'Gothic A1', sans-serif;
+  animation-name: go;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+/*@keyframes go{
+  0%{
+    font-size:30px;
+}
+  100%{
+    font-size:50px;
+}
+}*/
+
+#font14{
+  font-family: 'Song Myung', serif;
+  font-size:60px;
+  animation-name: goo;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+/*@keyframes goo{
+  0%{
+    font-size:60px;
+  }
+
+  100%{
+    font-size:30px;
+ }
+}*/
+
+
+
+@media screen and (min-width:767px){
+body{
+    font-size:20pt;
+    background-size: 270%;
+  }
+    hgroup{
+    font-size:15pt;
+     line-height: 2.2;
+  }
+.image{
+  width:700px; 
+}
+
+.stop{
+  width:600px;
+}
+
+#font0
+{
+  position:absolute;
+  top:82%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+    
+ #font2, #font4, #font5, #font8, #font10, #font13{
+  font-size:60px;
+  line-height: 2.2;
+ }
+#font3, #font9, {
+  font-size:70px;
+  line-height:2.2;
+}
+#font6, #font11, {
+  font-size:70px;
+  line-height:2.2;
+}
+#font12 {
+  font-size:80px;
+  line-height:2.2;
+}
+
+
+ .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
+.panel9, .panel10, .panel11, .panel12, .panel13 {
+    padding-top:170px;
+    padding-right:0px;
+    padding-left: 0px;
+  display: none;
+  font-size:20px;
+  line-height: 2;
+}
+ #textbox{
+    padding-top:70px;
+    padding-right:0px;
+    padding-left: 0px;
+
+  }
+
+#font1
+{
+  font-size:40px;
+  animation-name: gogo ;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 2.2;
+}
+/*@keyframes gogo{
+  0%{
+    font-size:40px;
+        opacity: 1;
+  }
+
+  100%{
+    font-size:80px;
+    /*  opacity: 0;
+
+  }*/*/
+#font4{
+  font-family: 'Sunflower', sans-serif;
+  font-size:35px;
+    animation-name: f;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 2.2;
+}
+@keyframes f{
+  0%{
+    font-size:35px;
+    /*    opacity: 1;
+  }
+
+  100%{
+    font-size:70px;
+    /*  opacity: 0;*/
+
+  }
+}*/
+
+
+#font7{
+  font-size:60px;
+  font-family: 'Gothic A1', sans-serif;
+  animation-name: go;
+  animation-duration:1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 2.2;
+}
+@keyframes go{
+  0%{
+    font-size:60px;
+    /*    opacity: 1;
+  }
+
+  100%{
+    font-size:120px;
+    /*  opacity: 0;*/
+
+  }*/
+}
+#font14{
+  font-family: 'Song Myung', serif;
+  font-size:60px;
+  animation-name: goo;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  line-height: 2.2;
+}
+@keyframes goo{
+  0%{
+    font-size:60px;
+    /*    opacity: 1;
+  }
+
+  100%{
+    font-size:90px;
+    /*  opacity: 0;*/
+  }*/
+}
+
+
+}
+}
+
+
+
