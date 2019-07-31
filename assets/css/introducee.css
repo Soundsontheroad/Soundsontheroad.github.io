@@ -8,17 +8,15 @@
   font-weight: normal;
 
 }
+
 body {
   padding-right: 0px;
   padding-left: 0px;
   padding-top:14px;
   font-family: sans-serif;
   font-size: 15pt;
-  background-image:url("../images/introback.png");
-  background-color: #F9F8EE;
-  background-size: cover;
+  background-color: #252224;                     
   height: 100%;
-
 
 }
 
@@ -26,7 +24,8 @@ hgroup{
   padding-top:5px;
   padding-right: 10px;
   font-size: 10pt;
-  color:#B699D3;
+  font-style: bold;
+  color: #DEDCDD;
 }
 .site-title {
   width: 50%;
@@ -38,7 +37,8 @@ hgroup{
 
 h1 {
   font-size: 10pt;
-  color: gray;
+  font-style: bold;
+  color: #DEDCDD;
   padding-top:5px;
   padding-right: 10px;
   padding-bottom: 0px;
@@ -70,23 +70,23 @@ p {
   padding-top:50px;
   text-align: center;
   line-height: auto;
+  color: #DEDCDD;
 }
 
    hr {
       border: 80px line;
       line-height: 90%;
       height: 1px;
-      color:white;
-
+      color: #DEDCDD;
       }
 
 a:link {
- color: blue;
+ color: #DEDCDD;
  background-color: transparent;
  text-decoration: none;
 }
 a:visited {
- color: blue;
+ color: #DEDCDD;
  background-color: transparent;
  text-decoration: none;
 }
@@ -95,7 +95,7 @@ a:visited {
 
 #font1
 {
-  color:black;
+  color: #DEDCDD;
   font-size:7px;
 /*  color:#F9F8EE;*/
 }
@@ -103,25 +103,25 @@ a:visited {
 #font2
 {
   font-size:12pt;  
-  color:black;
+  color: #DEDCDD;
   font-style: bold;
 }
 
 #font3{
   font-size:10pt;
   text-decoration: underline;
-/*  color:#F9F8EE;*/
+  color: #DEDCDD;
 }
 
 #font4{
   font-size:10px;
-/*  color:#F9F8EE;*/
+  color: #DEDCDD;
 }
 /*------------------------------------------------*/
 @media (min-width:767px){
 
     hgroup{
-    font-size:20pt;
+    font-size:15pt;
      line-height: 2.2;
   }
 
@@ -129,11 +129,9 @@ a:visited {
 body {
   background-size: 270%;
   font-family: sans-serif;
-  background-color: #F9F8EE;
   background-size: cover;
   height: 100%;
   line-height: 1.5;
-
 }
 
 p{
@@ -154,7 +152,6 @@ p{
 
 #font1
 {
-  color:black;
   font-size:10pt;
 /*   color:#F9F8EE;*/
 }
@@ -162,7 +159,6 @@ p{
 #font2
 {
   font-size:30pt;  
-  color:black;
   line-height: 1.7;
   font-style: bold;
 }
@@ -183,17 +179,13 @@ p{
     hgroup{
       padding-top:1px;
     font-size:13px;
-    color:#A29BE0;
   }
 
 
 body {
   font-family: sans-serif;
-  background-color: #F9F8EE;
   background-size: cover;
   height: 100%;
-
-
 }
 
 p{
@@ -204,7 +196,7 @@ p{
    text-align: center;
      line-height: 1.7;
 }
-
+/*
 .textbox{
   padding-top:90px;
 }
@@ -225,7 +217,6 @@ p{
 #font2
 {
   font-size:13pt;  
-  color:black;
   line-height: 1.8;
   font-style: bold;
   line-height: 1.5;
@@ -240,7 +231,7 @@ p{
 /*  color:#F9F8EE;*/
 
 }
-  }
+  }*/
 
 
 
