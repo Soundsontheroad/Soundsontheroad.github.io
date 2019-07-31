@@ -342,15 +342,58 @@ button{
   opacity: 10%;
 }
 
- #font2, #font4, #font5, #font8, #font9, #font10, #font11, #font12, #font13{
-  font-size:40px;
+ #font2{
+  font-size:30px;
  }
- #font3{
+
+  #font3{
   font-size:50px;
  }
+
+  #font3{
+  font-size:70px;
+ }
+
+  #font4{
+  font-size:40px;
+ }
+
+  #font5{
+  font-size:30px;
+ }
+
   #font6{
+  font-size:40px;
+ }
+
+  #font7{
   font-size:45px;
  }
+
+ #font8{
+  font-size:60px;
+ }
+
+  #font9{
+  font-size:50px;
+ }
+
+  #font10{
+  font-size:15px;
+ }
+
+  #font11{
+  font-size:30px;
+ }
+
+  #font12{
+  font-size:70px;
+ }
+
+  #font13{
+  font-size:50px;
+ }
+
 
  .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
 .panel9, .panel10, .panel11, .panel12, .panel13{
@@ -360,6 +403,7 @@ button{
   display: none;
   font-size:15px;
   line-height: 2;
+  font-family: 'sans-serif'
 }
 
  #textbox{
@@ -370,7 +414,6 @@ button{
 
 #font1
 {
-  font-family: 'J-Bold';
   font-size:37px;
   animation-name: gogo ;
   animation-duration:2s;
