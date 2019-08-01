@@ -14,6 +14,11 @@ body {
   padding-left: 0px;
   padding-top:14px;
   font-family: sans-serif;
+    background-image:url("../images/infoback.jpg");
+        /*  background-size:120%;*/
+/*  background-attachment: fixed !important;*/
+  background-position: top;
+  background-repeat: none;   
   font-size: 15pt;
   background-color: #252224;                     
   height: 100%;
@@ -25,7 +30,7 @@ hgroup{
   padding-right: 10px;
   font-size: 10pt;
   font-style: bold;
-  color: #DEDCDD;
+  color:black;
 }
 .site-title {
   width: 50%;
@@ -38,7 +43,7 @@ hgroup{
 h1 {
   font-size: 10pt;
   font-style: bold;
-  color: #DEDCDD;
+/*  color: #DEDCDD;*/
   padding-top:5px;
   padding-right: 10px;
   padding-bottom: 0px;
@@ -70,7 +75,7 @@ p {
   padding-top:50px;
   text-align: center;
   line-height: auto;
-  color: #DEDCDD;
+/*  color: #DEDCDD;*/
 }
 
    hr {
@@ -81,17 +86,23 @@ p {
       }
 
 a:link {
- color: #DEDCDD;
+ color: black;
  background-color: transparent;
  text-decoration: none;
 }
 a:visited {
- color: #DEDCDD;
+ color: black;
  background-color: transparent;
  text-decoration: none;
 }
 
+.textbox{
+  padding-top:90px;
+}
 
+.textbox2{
+  padding-top:10px;
+}
 
 #font1
 {
@@ -103,14 +114,14 @@ a:visited {
 #font2
 {
   font-size:12pt;  
-  color: #DEDCDD;
+  color: black;
   font-style: bold;
 }
 
 #font3{
   font-size:10pt;
   text-decoration: underline;
-  color: #DEDCDD;
+  color: black;
 }
 
 #font4{
@@ -137,7 +148,7 @@ body {
 p{
    padding-right: 170px;
   padding-left: 170px;
-  padding-top:90px;
+  padding-top:50px;
   font-size:20pt;
    text-align: center;
 }
@@ -174,7 +185,7 @@ p{
 }
   }
 /*-----------------------------------------------------*/
-  @media (min-width:1000px){
+  @media (min-width:800px){
 
     hgroup{
       padding-top:1px;
@@ -186,30 +197,27 @@ body {
   font-family: sans-serif;
   background-size: cover;
   height: 100%;
+    background-attachment: fixed !important;
 }
 
+
 p{
-   padding-right: 280px;
-  padding-left: 280px;
-  padding-top:90px;
   font-size:10pt;
-   text-align: center;
-     line-height: 1.7;
 }
-/*
+
+
 .textbox{
   padding-top:90px;
 }
 
 .textbox2{
-  padding-top:5px;
+  padding-top:10px;
 }
 
 #font1
 {
-  color:black;
-  font-size:7pt;
-/*  color:#F9F8EE;*/
+  font-size:8pt;
+  color:#F9F8EE;
   line-height: 1.5;
 
 }
@@ -228,7 +236,7 @@ p{
 }
 #font4{
   font-size:10pt;
-/*  color:#F9F8EE;*/
+/*  color:#F9F8EE;
 
 }
   }*/
