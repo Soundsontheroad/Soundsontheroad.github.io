@@ -133,6 +133,67 @@ a:visited {
   color: #DEDCDD;
 }
 /*------------------------------------------------*/
+@media (max-width:300px){
+
+    hgroup{
+    font-size:20pt;
+     line-height: 2.2;
+  }
+
+
+body {
+  background-size: 100%;
+  font-family: sans-serif;
+  background-size: cover;
+  height: 100%;
+  line-height: 1.5;
+}
+
+p{
+   padding-right: 170px;
+  padding-left: 170px;
+  padding-top:50px;
+  font-size:20pt;
+   text-align: center;
+}
+
+.textbox{
+  padding-top:130px;
+}
+
+.textbox2{
+  padding-top:40px;
+}
+
+.textbox3{
+  padding-top:540px;
+}
+
+#font1
+{
+  font-size:10pt;
+/*   color:#F9F8EE;*/
+}
+
+#font2
+{
+  font-size:30pt;  
+  line-height: 1.7;
+  font-style: bold;
+}
+
+#font3{
+  font-size:20pt;
+  text-decoration: underline;
+  color: #DEDCDD;
+}
+
+#font4{
+  font-size:20pt;
+/*  color:#F9F8EE;*/
+}
+  }
+/*------------------------------------------------*/
 @media (min-width:767px){
 
     hgroup{
@@ -246,11 +307,54 @@ p{
 }
 #font4{
   font-size:10pt;
-/*  color:#F9F8EE;
-
 }
-  }*/
+}
+----------------------------------------------
+@media all and (max-width:1200px){
 
+
+p{
+  font-size:10pt;
+}
+
+
+.textbox{
+  padding-top:50px;
+}
+
+.textbox2{
+  padding-top:10px;
+}
+
+.textbox3{
+  padding-top:10px;
+}
+
+#font1
+{
+  font-size:8pt;
+  color:#F9F8EE;
+  line-height: 1.5;
+}
+
+#font2
+{
+  font-size:13pt;  
+  line-height: 1.8;
+  font-style: bold;
+  line-height: 1.5;
+  color: black;
+}
+
+#font3{
+  font-size:10pt;
+  text-decoration: underline;
+  color: black;
+}
+#font4{
+  font-size:10pt;
+}
+}
 
 
 

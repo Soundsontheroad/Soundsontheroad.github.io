@@ -623,5 +623,18 @@ body{
 }
 }
 
+@media all and (min-width:1200px){
 
+#font0
+{
+  position:absolute;
+  top:4%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.stop{
+  width: 400px;
+} 
+
+}
 
