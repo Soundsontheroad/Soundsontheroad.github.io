@@ -415,60 +415,18 @@ button{
 #font1
 {
   font-size:37px;
-  animation-name: gogo ;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
-}
-/*
-@keyframes gogo{
-  0%{
-    font-size:37px;
-  }
-
-  100%{
-    font-size:60px;
-  }*/
+ }
 
 
 #font7{
   font-size:30px;
   font-family: 'Gothic A1', sans-serif;
-  animation-name: go;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
-}
-/*@keyframes go{
-  0%{
-    font-size:30px;
-}
-  100%{
-    font-size:50px;
-}
-}*/
+  }
 
 #font14{
   font-family: 'Song Myung', serif;
   font-size:60px;
-  animation-name: goo;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
 }
-/*@keyframes goo{
-  0%{
-    font-size:60px;
-  }
-
-  100%{
-    font-size:30px;
- }
-}*/
-
 
 
 @media screen and (min-width:767px){
@@ -533,94 +491,28 @@ body{
 #font1
 {
   font-size:40px;
-  animation-name: gogo ;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
   line-height: 2.2;
 }
-/*@keyframes gogo{
-  0%{
-    font-size:40px;
-        opacity: 1;
-  }
 
-  100%{
-    font-size:80px;
-    /*  opacity: 0;
-
-  }*/*/
 #font4{
   font-family: 'Sunflower', sans-serif;
   font-size:35px;
-    animation-name: f;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
   line-height: 2.2;
 }
-@keyframes f{
-  0%{
-    font-size:35px;
-    /*    opacity: 1;
-  }
-
-  100%{
-    font-size:70px;
-    /*  opacity: 0;*/
-
-  }
-}*/
 
 
 #font7{
   font-size:60px;
   font-family: 'Gothic A1', sans-serif;
-  animation-name: go;
-  animation-duration:1.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
   line-height: 2.2;
 }
-@keyframes go{
-  0%{
-    font-size:60px;
-    /*    opacity: 1;
-  }
 
-  100%{
-    font-size:120px;
-    /*  opacity: 0;*/
-
-  }*/
-}
 #font14{
   font-family: 'Song Myung', serif;
   font-size:60px;
-  animation-name: goo;
-  animation-duration:2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
   line-height: 2.2;
 }
-@keyframes goo{
-  0%{
-    font-size:60px;
-    /*    opacity: 1;
-  }
 
-  100%{
-    font-size:90px;
-    /*  opacity: 0;*/
-  }*/
-}
-
-
-}
 }
 
 @media all and (min-width:1200px){
@@ -638,3 +530,130 @@ body{
 
 }
 
+@media all and (min-width:300px){
+
+.image{
+  width:500px; 
+} 
+
+#font0
+{
+  position:absolute;
+  top:80%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.stop{
+  width:400px;
+}
+
+ #font2{
+  font-size:30px;
+ }
+
+  #font3{
+  font-size:50px;
+ }
+
+  #font3{
+  font-size:30px;
+ }
+
+  #font4{
+  font-size:20px;
+ }
+
+  #font5{
+  font-size:15px;
+ }
+
+  #font6{
+  font-size:30px;
+ }
+
+  #font7{
+  font-size:35px;
+ }
+
+ #font8{
+  font-size:40px;
+ }
+
+  #font9{
+  font-size:45px;
+ }
+
+  #font10{
+  font-size:15px;
+ }
+
+  #font11{
+  font-size:20px;
+ }
+
+  #font12{
+  font-size:50px;
+ }
+
+  #font13{
+  font-size:40px;
+ }
+
+
+ .panel, .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, 
+.panel9, .panel10, .panel11, .panel12, .panel13{
+    padding-top:90px;
+    padding-right:0px;
+    padding-left: 0px;
+  display: none;
+  font-size:15px;
+  line-height: 2;
+  font-family: 'sans-serif'
+}
+
+ #textbox{
+    padding-top:40px;
+    padding-right:0px;
+    padding-left: 0px;
+  }
+
+#font1
+{
+  font-size:37px;
+ }
+
+
+#font7{
+  font-size:30px;
+  font-family: 'Gothic A1', sans-serif;
+  }
+
+#font14{
+  font-family: 'Song Myung', serif;
+  font-size:40px;
+}
+}
+
+@media all and (min-width:400px){
+
+#font0
+{
+  position:absolute;
+  top:72%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+}
+
+@media all and (min-width:600px){
+
+#font0
+{
+  position:absolute;
+  top:90%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+}
